@@ -4,19 +4,6 @@
   
     
     <entry>
-      <title>公司地址</title>
-      <link href="/2021/10/09/gong-si-di-zhi/"/>
-      <url>/2021/10/09/gong-si-di-zhi/</url>
-      
-        <content type="html"><![CDATA[<!DOCTYPE html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="viewport" content="initial-scale=1.0, user-scalable=no" /><title>驾车路线规划</title><script type="text/javascript" src="http://api.map.baidu.com/api?v=3.0&ak=G7P7CNGGMAcPd05fPGaOIv6kyGAg6XcO"></script><style type="text/css">body, html,#container {width: 100%;height: 100%;overflow: hidden;margin:0;font-family:"微软雅黑";}</style></head><body><div id="container"></div><script type="text/javascript">var map = new BMap.Map("container"); map.centerAndZoom(new BMap.Point(116.551467,33.244802), 20); var point = new BMap.Point(116.551467,33.244802); var point4 = new BMap.Point(116.551485,33.244904);var marker = new BMap.Marker(point);        // 创建标注    ​    map.addOverlay(marker);                     // 将标注添加到地图中​    //添加地图类型控件​    map.addControl(new BMap.MapTypeControl({​        mapTypes:[​            BMAP_NORMAL_MAP,​            BMAP_HYBRID_MAP​        ]}));     ​    map.setCurrentCity("蒙城");          // 设置地图显示的城市 此项是必须设置的​    map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放​    var opts = {    ​    width : 220,     // 信息窗口宽度    ​    height: 60,     // 信息窗口高度    ​    title : "金钥匙开锁"  // 信息窗口标题   ​    }    ​    var infoWindow = new BMap.InfoWindow("<a href='tel:05587777746'>点这里联系我0558777746</a>", opts);  // 创建信息窗口对象  ​    var opts3 = {    ​    width : -80,     // 信息窗口宽度    ​    height: -15,     // 信息窗口高度    ​    }   ​    var opts2 = {​        position: point,​        offset: opts3,​    } ​    ​    var label = new BMap.Label("金钥匙开锁", opts2);​    label.setStyle({ ​      color : "black",​      fontSize : "12px",​      borderRadius: '5px',​      padding: '3px',​      height: '17px',​      //lineHeight: '30px',​      fontFamily: '微软雅黑',​      borderColor: '#ccc'​    });  ​    ​    map.addOverlay(label);   ​    ​    infoWindow.enableCloseOnClick();​    infoWindow.restore();​    map.openInfoWindow(infoWindow,point4);​    // 打开信息窗口​    marker.addEventListener('click', function () {​      map.openInfoWindow(infoWindow, point4); // 开启信息窗口​    });var driving = new BMap.DrivingRoute(map, { ​    renderOptions: { ​        map: map, ​        autoViewport: true ​    }});var geolocation = new BMap.Geolocation();// 开启SDK辅助定位geolocation.enableSDKLocation();geolocation.getCurrentPosition(function(r){​    if(this.getStatus() == BMAP_STATUS_SUCCESS){​        var mk = new BMap.Marker(r.point);​        map.addOverlay(mk);​        //map.panTo(r.point);​        var a = r.point.lat;​        var b = r.point.lng;​        var driving = new BMap.DrivingRoute(map, { ​             renderOptions: { ​             map: map, ​                autoViewport: true ​             }​        });​        var start = new BMap.Point(b, a);​        var end = new BMap.Point(116.551467,33.244802);​        driving.search(start, end);  }​    else {​        alert('您需要允许获取您的位置，重新刷新网页，点击允许，即可导航到金钥匙开锁，错误代码：'+this.getStatus());​      };    });</script></body></html>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title></title>
       <link href="/2021/10/09/test/"/>
       <url>/2021/10/09/test/</url>
