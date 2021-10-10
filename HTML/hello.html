@@ -32,7 +32,8 @@ body, html,#container {width: 100%;height: 100%;overflow: hidden;margin:0;font-f
         height: 70,     // 信息窗口高度    
         title : "金钥匙开锁" , // 信息窗口标题   
         }    
-        var infoWindow = new BMap.InfoWindow("<a href='Https://uri.amap.com/marker?position=116.544925,33.238835 &name=金钥匙开锁'>点我用高德导航，或者点击红点后用百度导航</a>", opts);  // 创建信息窗口对象  
+        //var infoWindow = new BMap.InfoWindow("<a href='Https://uri.amap.com/marker?position=116.544925,33.238835 &name=金钥匙开锁'>点我用高德导航，或者点击红点后用百度导航</a>", opts);  // 创建信息窗口对象  
+        var infoWindow = new BMap.InfoWindow("<a href='https://api.map.baidu.com/direction?origin=33.244904,116.551485 &destination=33.238835,116.544925 &mode=driving&region=金钥匙开锁 &output=html'>点我用高德导航，或者点击红点后用百度导航</a>", opts);  // 创建信息窗口对象  
         var opts3 = {    
         width : -80,     // 信息窗口宽度    
         height: -15,     // 信息窗口高度    
