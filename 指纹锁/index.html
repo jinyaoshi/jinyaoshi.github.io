@@ -5,7 +5,7 @@
 
   <meta charset="UTF-8">
 
-  <title>HTML5 3D旋转图片相册演示地址</title>
+  <title>指纹锁展示</title>
 
     <style>
 @import url(http://fonts.googleapis.com/css?family=Anaheim);
@@ -30,7 +30,7 @@ body{
 }
 h1{
 	display: table;
-	margin: 5% auto 0;
+	margin: 2% auto 0;
 	text-transform: uppercase;
 	font-family: 'Anaheim', sans-serif;
 	font-size: 4em;
@@ -38,9 +38,13 @@ h1{
 	text-shadow: 0 1px white, 0 2px black;
 }
 .container{
-	margin: 4% auto;
-	width: 210px;
-	height: 140px;
+	margin: 15% auto 5%;
+    /*
+    width: 210px;
+    height: 140px;
+    */
+    width: 328px;
+	height: 442px;
 	position: relative;
 	perspective: 1000;
 }
@@ -57,23 +61,23 @@ h1{
 #carousel figure{
 	display: block;
 	position: absolute;
-	width: 186px;
-	height: 116px;
+	width: 328px;
+	height: 442px;
 	left: 10px;
 	top: 10px;
 	background: black;
 	overflow: hidden;
 	border: solid 5px black;
 }
-#carousel figure:nth-child(1){transform: rotateX(0deg) translateZ(288px);}
-#carousel figure:nth-child(2) { transform: rotateX(40deg) translateZ(288px);}
-#carousel figure:nth-child(3) { transform: rotateX(80deg) translateZ(288px);}
-#carousel figure:nth-child(4) { transform: rotateX(120deg) translateZ(288px);}
-#carousel figure:nth-child(5) { transform: rotateX(160deg) translateZ(288px);}
-#carousel figure:nth-child(6) { transform: rotateX(200deg) translateZ(288px);}
-#carousel figure:nth-child(7) { transform: rotateX(240deg) translateZ(288px);}
-#carousel figure:nth-child(8) { transform: rotateX(280deg) translateZ(288px);}
-#carousel figure:nth-child(9) { transform: rotateX(320deg) translateZ(288px);}
+#carousel figure:nth-child(1) {transform: rotateX(0deg) translateZ(462px);}
+#carousel figure:nth-child(2) { transform: rotateX(40deg) translateZ(462px);}
+#carousel figure:nth-child(3) { transform: rotateX(80deg) translateZ(462px);}
+#carousel figure:nth-child(4) { transform: rotateX(120deg) translateZ(462px);}
+#carousel figure:nth-child(5) { transform: rotateX(160deg) translateZ(462px);}
+#carousel figure:nth-child(6) { transform: rotateX(200deg) translateZ(462px);}
+#carousel figure:nth-child(7) { transform: rotateX(240deg) translateZ(462px);}
+#carousel figure:nth-child(8) { transform: rotateX(280deg) translateZ(462px);}
+#carousel figure:nth-child(9) { transform: rotateX(320deg) translateZ(462px);}
 
 img{
 	-webkit-filter: grayscale(1);
