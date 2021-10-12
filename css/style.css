@@ -1018,7 +1018,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   background-size: cover;
   background-position: center center;
   color: #fff;
-  font-weight: normal;
+  font-weight: bolder;
   font-family: '楷体';
 }
 .post-detail-header .post-detail-header-mask {
