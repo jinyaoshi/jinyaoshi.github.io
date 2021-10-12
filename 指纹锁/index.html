@@ -16,6 +16,15 @@
 <link rel="stylesheet" href="./friend_files/style.css">
 
   <title>指纹锁展示 | 金钥匙开锁 0558-7777746</title>
+  <script>
+    setcookie('param_cookie',0,10);
+    function body_onload(){
+      if(0 == getcookie('param_cookie')){
+         setcookie("param_cookie",1,10);
+         window.location.reload(true); 
+       }
+    }
+  </script>
 
   <style>
       @import url(http://fonts.googleapis.com/css?family=Anaheim);
@@ -171,7 +180,7 @@
   
   
   
-  <body class="pace-done pace-done pace-done" style="overflow: auto; height: 100%;" cz-shortcut-listen="true">
+  <body onLoad="body_onload()" class="pace-done pace-done pace-done" style="overflow: auto; height: 100%;" cz-shortcut-listen="true">
     <div class="pace  pace-inactive pace-inactive pace-inactive">
       <div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
         <div class="pace-progress-inner"></div>
