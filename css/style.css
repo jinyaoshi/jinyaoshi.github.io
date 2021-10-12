@@ -142,7 +142,7 @@ a {
   margin: 0 auto;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #42b983;
+  background-color: #999;
   border-radius: 3em;
 }
 ::-webkit-scrollbar {
@@ -159,7 +159,7 @@ pre:hover::-webkit-scrollbar-thumb,
 }
 pre:hover::-webkit-scrollbar-thumb:hover,
 .toc-aside .toc-content:hover::-webkit-scrollbar-thumb:hover {
-  background-color: #42b983;
+  background-color: #999;
 }
 @media (max-width: 551px) {
   html {
@@ -175,7 +175,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   color: #fff;
 }
 .bg-floor {
-  background: url("https://pic1.zhimg.com/80/v2-b4b71405d08bc1952025ba1bd5db54f3_1440w.jpg?source=1940ef5c");
+  background: #999;
   background-size: cover;
   transition: all 0.3s;
 }
@@ -3805,7 +3805,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   }
 }
 .pace .pace-progress {
-  background: #f6a427 !important; /* 进度条颜色 */
+  background: #28aaff !important; /* 进度条颜色 */
   height: 3px;
 }
 .pace .pace-progress-inner {
