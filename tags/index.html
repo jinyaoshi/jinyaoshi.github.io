@@ -1162,7 +1162,13 @@
     
 <!-- 具体js，请前往valine/script.ejs查看 -->
 
-    <script>
+    <!-- id 将作为查询条件 -->
+<span id="jinyaoshi" class="leancloud_visitors" data-flag-title="Your Article Title">
+	<em class="post-meta-item-text">阅读量 </em>
+	<i class="leancloud-visitors-count"></i>
+</span>
+
+<script>
   var requiredFields = 'nick,mail';
   requiredFields = requiredFields.split(',');
   comment_el = '.comment';
