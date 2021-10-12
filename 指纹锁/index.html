@@ -14,25 +14,9 @@
   <link href="/css/fontawesome.min.css" rel="stylesheet">
   
   
-    <link rel="stylesheet" href="./friend_files/he-simple.css">
-    <script src="http://push.zhanzhang.baidu.com/push.js"></script>
-    <script src="https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0"></script><script>
-        var themeModelId = '5';
-        if (themeModelId) {
-            localStorage.setItem('modelId', themeModelId);
-        }
-    </script>
+
     
-    <script src="https://cdn.jsdelivr.net/gh/yuang01/live2d-widget@latest/autoload.js"></script>
-    <link rel="stylesheet" href="./friend_files/waifu.css">
-  <!-- <script src="https://cdn.jsdelivr.net/gh/yuang01/live2d-widget@latest/autoload.js"></script>-->
-    <script src="./js/waifu-tips.js"></script>
-    <script>
-        var live2dOpen = eval('true') || false;
-        if (!live2dOpen) {
-            localStorage.setItem('waifu-display', 1609323474481);
-        }
-    </script>
+
   
   
   
@@ -44,12 +28,11 @@
   
   
     
-<link rel="stylesheet" href="./friend_files/jquery.fancybox.min.css">
 
   
   
     
-<link rel="stylesheet" href="./friend_files/share.min.css">
+
 
   
   <style>
@@ -213,10 +196,31 @@
     </style>
     
       <script src="js/prefixfree.min.js"></script>
+
+      <script src="https://cdn.jsdelivr.net/gh/yuang01/live2d-widget@latest/autoload.js"></script>
+      <link rel="stylesheet" href="./friend_files/waifu.css">
+    <!-- <script src="https://cdn.jsdelivr.net/gh/yuang01/live2d-widget@latest/autoload.js"></script>-->
+      <script src="./js/waifu-tips.js"></script>
+      <script>
+          var live2dOpen = eval('true') || false;
+          if (!live2dOpen) {
+              localStorage.setItem('waifu-display', 1609323474481);
+          }
+      </script>
+
+      <link rel="stylesheet" href="./friend_files/he-simple.css">
+      <script src="http://push.zhanzhang.baidu.com/push.js"></script>
+      <script src="https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0"></script><script>
+          var themeModelId = '5';
+          if (themeModelId) {
+              localStorage.setItem('modelId', themeModelId);
+          }
+      </script>
     
 
+      <link rel="stylesheet" href="./friend_files/jquery.fancybox.min.css">
 
-
+      <link rel="stylesheet" href="./friend_files/share.min.css">
 
 
 </head>
@@ -474,19 +478,30 @@
 </script>
 <!-- 解决刷新页面闪烁问题，可以在元素上添加display: none, 或者用vue.extend方法，详情：https://blog.csdn.net/qq_31393401/article/details/81017912 -->
 <!-- 下面是搜索基本写法 -->
-<!-- <script type="text/javascript" id="local.search.active">
+<!--<script type="text/javascript" id="local.search.active">
   var inputArea = document.querySelector("#local-search-input");
   inputArea.onclick   = function(){ getSearchFile(); this.onclick = null }
   inputArea.onkeydown = function(){ if(event.keyCode == 13) return false }
-</script> -->
-
-      
+</script> 
+-->     
 
     </nav>
   </div>
   
   
-    <div data-v-41ba7e2c="" id="he-plugin-simple" style="position: relative;"><script data-v-41ba7e2c="" type="text/javascript" src="./friend_files/maps"></script> <div data-v-41ba7e2c="" class="s-sticker" style="font-size: 1.4em; cursor: pointer; padding: 10px; background-color: transparent; border-radius: 5px;"><div data-v-41ba7e2c="" style="width: 50%;"></div> <div data-v-7d48daab="" data-v-41ba7e2c="" class="s-sticker-tmp module" style="font-size: 16px; color: rgb(74, 74, 74); vertical-align: middle;">20°C</div><div data-v-7d48daab="" data-v-41ba7e2c="" class="s-sticker-city module" style="font-size: 16px; color: rgb(74, 74, 74); vertical-align: middle;">六安</div><div data-v-7d48daab="" data-v-41ba7e2c="" class="s-sticker-cond module" style="vertical-align: middle;"><img data-v-7d48daab="" src="./friend_files/100d.png" style="width: 24px; height: 24px;"></div> <div data-v-41ba7e2c="" style="width: 50%;"></div></div> <div data-v-41ba7e2c=""><!----></div></div>
+    <div data-v-41ba7e2c="" id="he-plugin-simple" style="position: relative;">
+      <script data-v-41ba7e2c="" type="text/javascript" src="./friend_files/maps"></script> 
+      <div data-v-41ba7e2c="" class="s-sticker" style="font-size: 1.4em; cursor: pointer; padding: 10px; background-color: transparent; border-radius: 5px;">
+        <div data-v-41ba7e2c="" style="width: 50%;">
+        </div> 
+        <div data-v-7d48daab="" data-v-41ba7e2c="" class="s-sticker-tmp module" style="font-size: 16px; color: rgb(74, 74, 74); vertical-align: middle;">20°C</div><div data-v-7d48daab="" data-v-41ba7e2c="" class="s-sticker-city module" style="font-size: 16px; color: rgb(74, 74, 74); vertical-align: middle;">六安</div>
+        <div data-v-7d48daab="" data-v-41ba7e2c="" class="s-sticker-cond module" style="vertical-align: middle;">
+          <img data-v-7d48daab="" src="./friend_files/100d.png" style="width: 24px; height: 24px;">
+          </div>
+           <div data-v-41ba7e2c="" style="width: 50%;"></div>
+           </div> 
+           <div data-v-41ba7e2c=""><!----></div>
+           </div>
     <script>
       WIDGET = {
         CONFIG: {
@@ -595,27 +610,30 @@
 </script> 
 
 <!-- 轮播图所需要的js -->
+<!--
 <script src="./js/swiper/swiper.min.js"></script>
 <script src="./js/swiper/vue-awesome-swiper.js"></script>
 <script src="./js/swiper/swiper.animate1.0.3.min.js"></script>
 
 
   <script src="./js/vue-typed-js/index.js"></script>
-
+-->
 
 <!-- 首页的公告滚动插件的js需要重新加载 -->
+<!--
 <script src="./js/vue-seamless-scroll/index.js"></script>
-
+-->
 <!-- 打字机效果js -->
+<!--
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-
+-->
 
     <!-- 内容区域 -->
     <div id="safearea">
       <main class="main" id="pjax-container" style="margin-top: 0;">
         
  <!-- prismjs 代码高亮 -->
- 
+ <!--
     
     <link href="./friend_files/prism-line-numbers.css" rel="stylesheet">
     
@@ -631,7 +649,7 @@
         }
     </style>
   
-
+-->
 
 <div class="bg-dark-floor" style="position: fixed;left: 0;top: 0;width: 100%;height: 100%;z-index: -1;"></div>
 
@@ -688,7 +706,9 @@
 
 
 <!-- 文章详情页背景图 -->
-<div id="appBgSwiper" style="position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; z-index: -2; background-color: white;"><ul></ul></div>
+<div id="appBgSwiper" style="position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; z-index: -2; background-color: white;">
+  <ul></ul>
+  </div>
 
 
 <style>
@@ -708,7 +728,8 @@
 
 
       </main>
-    </div><style type="text/css" data-typed-js-css="true">
+    </div>
+    <style type="text/css" data-typed-js-css="true">
         .typed-cursor{
           opacity: 1;
         }
@@ -885,8 +906,10 @@
 
 
 </style>
+
 <meting-js class="" server="netease" type="playlist" id="826345551" fixed="true" autoplay="true" theme="#42b983" loop="all" order="random" preload="auto" volume="0.5" list-folded="true">
 <div class="aplayer aplayer-withlist aplayer-fixed aplayer-narrow">
+  <!--
 <div class="aplayer-list aplayer-list-hide" style="max-height: 250px">
     <ol style="max-height: 250px">
         
@@ -1242,6 +1265,7 @@
 
     </ol>
 </div>
+-->
 <div class="aplayer-body" style="width: 400px;">
     <div class="aplayer-pic" style="background-image: url(&quot;https://api.i-meto.com/meting/api?server=netease&amp;type=pic&amp;id=109951166107927511&amp;auth=c8a2ccd8f2cf9bb097bbd12b8b8784283212cd81&quot;);background-color: #42b983;">
         <div class="aplayer-button aplayer-play"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 16 31"><path d="M15.552 15.168q0.448 0.32 0.448 0.832 0 0.448-0.448 0.768l-13.696 8.512q-0.768 0.512-1.312 0.192t-0.544-1.28v-16.448q0-0.96 0.544-1.28t1.312 0.192z"></path></svg></div>
