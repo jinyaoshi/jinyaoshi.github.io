@@ -1656,7 +1656,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   justify-content: center;
   align-items: center;
   color: #fff;
-  background: #fff;
+  background: #000;
 }
 .footer .footer-main {
   text-align: center;
