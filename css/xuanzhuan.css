@@ -74,7 +74,7 @@
         top: 10px;
         background: black;
         overflow: hidden;
-        border: solid 5px black;
+        border: solid 5px #fff;
       }
   
       #carousel figure:nth-child(1) {transform: rotateY(0deg) translateZ(462px);}
