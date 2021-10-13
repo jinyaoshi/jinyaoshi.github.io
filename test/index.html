@@ -11,7 +11,7 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-  <title>友情链接 | 金钥匙开锁 0558-7777746</title>
+  <title>test | 金钥匙开锁 0558-7777746</title>
 
   <link rel="icon" type="image/x-icon, image/vnd.microsoft.icon" href="/favicon.ico">
   <link rel="stylesheet" href="https://at.alicdn.com/t/font_1911880_c1nvbyezg17.css">
@@ -61,6 +61,9 @@
     <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
     <link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
 
+    
+        <script src="/js/valine/av-min@3.0.4.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/HCLonely/Valine@latest/dist/Valine.min.js"></script>
     
 
     <!-- import link -->
@@ -574,230 +577,73 @@
     <div id="safearea">
       <main class="main" id="pjax-container" style="margin-top: 0;">
         
- <!-- prismjs 代码高亮 -->
- 
+<!DOCTYPE html>
+<html>
+<head>
     
-    <link href="/js/prism/prism-line-numbers.css" rel="stylesheet">
+    <meta charset="utf-8">
+
+    <!-- 引入配置文件 -->
     
-        <link href="/js/prism/prism.min.css" rel="stylesheet">
+<link rel="stylesheet" href="/css/xuanzhuan.css">
+
     
+</head>
 
-    <style>
-        pre[class*="language-"] {
-            overflow-y: hidden;
-        }
-        .line-numbers .line-numbers-rows {
-            border: none;
-        }
-    </style>
-  
+<div class="bg-dark-floor" style="position: fixed;left: 0;top: 0;width: 100%;height: 100%;z-index: -2;"></div>
+<div class="bg-light-floor-friends" style="position: fixed;left: 0;top: 0;width: 100%;height: 100%;z-index: -3;"></div>
+
+<div class="test-header"  style="background-image:url('/')">
 
 
-<div class="bg-dark-floor" style="position: fixed;left: 0;top: 0;width: 100%;height: 100%;z-index: -1;"></div>
-
-<!-- 文章详情页顶部图片和标题 -->
-
-
-
-
-<div class="post-detail-header" id="thumbnail_canvas" style="background-repeat: no-repeat; background-size: cover; 
-  background-position: center center;position: relative;background-image:url('/medias/11.jpg')">
-  <div class="post-detail-header-mask"></div>
-  <canvas id="header_canvas"style="position:absolute;bottom:0;pointer-events:none;"></canvas>
-  
-  <div class="post-detail-header_info-box">
-    <div class="title-box">
-      <span class="title">
-        friends
-      </span>
+  <div class="test-header-title">
+    指纹锁展示
     </div>
+    <div class="friends-header-desc">
     
-    
-  </div>
-  
-  
-    <script src="/js/bubble/bubble.js"></script>
-  
-</div>
-
-
-
-<div class="row justify-position">
-  <div class="main-content">
-    <article class="post post-detail">
-      <div class="post-content">
-        
-      </div>
-      <div class="post-tags-categories">
-        
-      </div>
-      
-    </article>
-    <!-- 上一篇文章和下一篇文章 -->
-    
-      <!-- 文章详情页的上一页和下一页 -->
-<div class="post-nav">
-
-
-
-
-
-</div>
-
-    
-    
-
-    <!-- 打赏 -->
-    
-
-    <!-- 分享 -->
-    
-    
-    <!-- 评论 -->
-    <!-- 评论 -->
-
-<!-- comment script in themes\hexo-theme-bamboo\layout\_partial\scripts\index.ejs -->
-
-
-  </div>
-
-  <!-- 目录 -->
-  <!-- 文章详情页右侧目录 -->
-
-  <script>
-    if (window.innerWidth >= 992) {
-      $(".toc-aside").css({'width': 0, 'padding': 0});
-      $(".toc-content").css({'width': 0});
-      $(".toc-aside-title span, .toc-aside-title i").css({'display': 'none'});
-      $(".main-content").css({'width': '75%', 'margin': '10px auto'});
-    }
-  </script>
-
-
-  <!-- 图片放大 Wrap images with fancybox support -->
-  <script src="/js/wrapImage.js"></script>
-</div>
-
-<!-- 文章详情页背景图 -->
-<div id="appBgSwiper" style="position: fixed;left: 0;top: 0;width: 100%;height: 100%;z-index: -2;"
-	:style="{'background-color': bgColor ? bgColor : 'transparent'}">
-	<transition-group tag="ul" :name="names">
-		<li v-for='(image,index) in img' :key='index' v-show="index === mark" class="bg-swiper-box">
-			<img :src="image" class="bg-swiper-img no-lazy">
-		</li>
-	</transition-group>
-</div>
-<script>
-	var vm = new Vue({
-		el: '#appBgSwiper',
-		data: {
-			names: '' || 'fade' || 'fade', // translate-fade fade
-			mark: 0,
-			img: [],
-			bgColor: '',
-			time: null
-		},
-		methods: {   //添加方法
-			change(i, m) {
-				if (i > m) {
-					// this.names = 'fade';
-				} else if (i < m) {
-					// this.names = 'fade';
-				} else {
-					return;
-				}
-				this.mark = i;
-			},
-			prev() {
-				// this.names = 'fade';
-				this.mark--;
-				if (this.mark === -1) {
-					this.mark = 3;
-					return
-				}
-			},
-			next() {
-				// this.names = 'fade';
-				this.mark++;
-				if (this.mark === this.img.length) {
-					this.mark = 0;
-					return
-				}
-			},
-			autoPlay() {
-				// this.names = 'fade';
-				this.mark++;
-				if (this.mark === this.img.length) {
-					this.mark = 0;
-					return
-				}
-			},
-			play() {
-				let bgImgDelay = '' || '180000'
-				let delay = parseInt(bgImgDelay) || 180000;
-				this.time = setInterval(this.autoPlay, delay);
-			},
-			enter() {
-				clearInterval(this.time);
-			},
-			leave() {
-				this.play();
-			}
-		},
-		created() {
-			this.play()
-		},
-		beforeDestroy() {
-			clearInterval(this.time);
-		},
-		mounted() {
-			let prop = '' || 'white';
-			let isImg = prop.includes('.bmp') || prop.includes('.jpg') || prop.includes('.png') || prop.includes('.tif') || prop.includes('.gif') || prop.includes('.pcx') || prop.includes('.tga') || prop.includes('.exif') || prop.includes('.fpx') || prop.includes('.psd') || prop.includes('.cdr') || prop.includes('.pcd') || prop.includes('.dxf') || prop.includes('.ufo') || prop.includes('.eps') || prop.includes('.ai') || prop.includes('.raw') || prop.includes('.WMF') || prop.includes('.webp') || prop.includes('.jpeg') || prop.includes('http://') || prop.includes('https://')
-			if (isImg) {
-				let img = prop.split(',');
-				let configRoot = '/'
-				let arrImg = [];
-				img.forEach(el => {
-					var Expression = /http(s)?:\/\/([\w-]+\.)+[\w-]+(\/[\w- .\/?%&=]*)?/;
-					var objExp = new RegExp(Expression);
-
-					if (objExp.test(el)) {
-						// http or https
-						arrImg.push(el);
-					} else {
-						// 非http or https开头
-						// 本地文件
-						let firstStr = el.charAt(0);
-						if (firstStr == '/') {
-							el = el.substr(1); // 删除第一个字符 '/',因为 configRoot最后一个字符为 /
-						}
-						el = configRoot + el;
-						arrImg.push(el);
-					}
-				})
-				this.img = arrImg;
-			} else {
-				this.bgColor = prop;
-			}
-		}
-	})
+      <span class="title" id="test-header-desc"></span>
+    <script>
+  function typedFn() {
+    const el = '#test-header-desc';
+    const type = 'test';
+    let desc = '点击图片进入产品详情页'
+    var typed = new Typed(el, {
+      strings: [desc],
+      startDelay: 100,
+      typeSpeed: 100,
+      loop: true,
+      backSpeed: 50,
+      showCursor: true
+    });
+  }
+  typedFn();
 </script>
+    
+    </div>
+    <div class="mask-box1">
 
-<style>
-	.bg-swiper-box {
-		position: absolute;
-		display: block;
-		width: 100%;
-		height: 100%;
-	}
 
-	.bg-swiper-img {
-		object-fit: cover;
-		width: 100%;
-		height: 100%;
-	}
-</style>
 
+    </div>
+</div>
+
+
+<div class="container" id="friends">
+    <div class="container">
+      <div id="carousel">
+        <figure><a target="_blank" rel="noopener" href="http://mckaisuo.vip/2021/10/09/test/"><img src="http://image.mckaisuo.vip/img/elock1.jpg" class="lazyload placeholder" data-srcset="http://image.mckaisuo.vip/img/elock1.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt=""></a></figure>
+        <figure><a target="_blank" rel="noopener" href="http://mckaisuo.vip/2021/10/09/test/"><img src="http://image.mckaisuo.vip/img/elock2.jpg" class="lazyload placeholder" data-srcset="http://image.mckaisuo.vip/img/elock2.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt=""></a></figure>
+        <figure><a target="_blank" rel="noopener" href="http://mckaisuo.vip/2021/10/09/test/"><img src="http://image.mckaisuo.vip/img/elock3.jpg" class="lazyload placeholder" data-srcset="http://image.mckaisuo.vip/img/elock3.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt=""></a></figure>
+        <figure><a target="_blank" rel="noopener" href="http://mckaisuo.vip/2021/10/09/test/"><img src="http://image.mckaisuo.vip/img/elock4.jpg" class="lazyload placeholder" data-srcset="http://image.mckaisuo.vip/img/elock4.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt=""></a></figure>
+        <figure><a target="_blank" rel="noopener" href="http://mckaisuo.vip/2021/10/09/test/"><img src="http://image.mckaisuo.vip/img/elock5.jpg" class="lazyload placeholder" data-srcset="http://image.mckaisuo.vip/img/elock5.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt=""></a></figure>
+        <figure><a target="_blank" rel="noopener" href="http://mckaisuo.vip/2021/10/09/test/"><img src="http://image.mckaisuo.vip/img/elock6.jpg" class="lazyload placeholder" data-srcset="http://image.mckaisuo.vip/img/elock6.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt=""></a></figure>
+        <figure><a target="_blank" rel="noopener" href="http://mckaisuo.vip/2021/10/09/test/"><img src="http://image.mckaisuo.vip/img/elock7.jpg" class="lazyload placeholder" data-srcset="http://image.mckaisuo.vip/img/elock7.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt=""></a></figure>
+        <figure><a target="_blank" rel="noopener" href="http://mckaisuo.vip/2021/10/09/test/"><img src="http://image.mckaisuo.vip/img/elock8.jpg" class="lazyload placeholder" data-srcset="http://image.mckaisuo.vip/img/elock8.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt=""></a></figure>
+        <figure><a target="_blank" rel="noopener" href="http://mckaisuo.vip/2021/10/09/test/"><img src="http://image.mckaisuo.vip/img/elock9.jpg" class="lazyload placeholder" data-srcset="http://image.mckaisuo.vip/img/elock9.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt=""></a></figure>
+      </div>
+    </div>
+   
+</div>
 
       </main>
     </div>
@@ -1305,6 +1151,138 @@
    
 
 <!-- 评论所需js -->
+
+  
+    <!-- 弹幕所需的css和js -->
+    
+<!-- 具体js，请前往valine/script.ejs查看 -->
+
+    
+
+<script>
+  var requiredFields = 'nick,mail';
+  requiredFields = requiredFields.split(',');
+  comment_el = '.comment';
+  let looperValine = null;
+  load_valine = function () {
+    if ($(comment_el).length) {
+      var valine = new Valine({
+        el: '#vcomment',
+        path: window.location.pathname,
+        notify: false,
+        verify: false,
+        app_id: "4Rbm3mTJlPyd9P7hsOuyOIys-gzGzoHsz",
+        app_key: "sIFvKhebqWaWa7bePSO0XxIR",
+        placeholder: "客官，说点什么吧",
+        avatar: "robohash",
+        master: "74ae9ed1ccd227fd506dfec5b4402484",   //博主邮箱md5
+        tagMeta: ["博主","蒙城吴彦祖","访客"],     //标识字段名
+        friends: "7b5ed0d109d8b5f489b911706a5b6229",
+        metaPlaceholder: { "nick": "必填：昵称/QQ号", "mail": "必填：邮箱（建议QQ邮箱）" },
+        requiredFields: requiredFields,
+        enableQQ: true,
+      });
+      function debounce(fn) {
+        var timerID = null
+        return function () {
+          var arg = arguments[0]   //获取事件
+          if (timerID) {
+            clearTimeout(timerID)
+          }
+          timerID = setTimeout(function () {
+            fn(arg)              //事件传入函数
+          }, 200)
+        }
+      }
+      //查询评论 valine.Q('*').limit(7) -- 查询所有，限制7条, 下面的的代码是查询当前页面
+      var themeDanmu = eval('false');
+      var themeLoop = eval('false');
+      var themeLooperTime = '5000' || 5000;
+      var speed = '40' || 20;
+      var isBarrager = true;
+      if (themeDanmu == true) {
+        do_barrager();
+        if ($('.danmuBox').length <= 0) {
+          $('.navbar').append('<div class="danmuBox"><div class="danmuBtn open"><span class="danmuCircle"></span><span class="danmuText">弹幕</span></div></div>');
+        }
+        $('.danmuBtn').on('click', debounce(
+          function () {
+            if ($('.danmuBtn').hasClass('open')) {
+              $('.danmuBtn').removeClass('open')
+              clearInterval(looperValine);
+              $.fn.barrager.removeAll();
+            } else {
+              $('.danmuBtn').addClass("open");
+              do_barrager();
+            }
+          }
+        ))
+      }
+      function do_barrager() {
+        isBarrager && valine.Q(window.location.pathname).find().then(function (comments) {
+          // var num = 0; // 可以记录条数，循环调用的时候只取最新的评论放入弹幕中
+          var run_once = true;
+          var looper_time = themeLooperTime;
+          var total = comments.length;
+          // var looper = null;
+          var index = 0;
+          if (total > 0) {
+            barrager();
+          } else {
+            // 当评论数为0的时候，自动关闭弹幕
+            // $('.danmuBtn').removeClass('open');
+          }
+          function barrager() {
+            if (run_once) {
+              //如果是首次执行,则设置一个定时器,并且把首次执行置为false
+              looperValine = setInterval(barrager, looper_time);
+              run_once = false;
+            }
+            var content = comments[index]._serverData.comment;
+            var email = comments[index]._serverData.mail;
+            var link = comments[index]._serverData.link;
+            var newcontent = content.substring(0, 50).replace(/<[^>]+>/g, "");
+            //发布一个弹幕
+            const item = {
+              img: `https://q1.qlogo.cn/g?b=qq&nk=${email}&s=640`, //图片 
+              info: newcontent, //文字 
+              href: link, //链接 
+              close: true, //显示关闭按钮 
+              speed: speed, //延迟,单位秒,默认6 
+              color: '#fff', //颜色,默认白色 
+              old_ie_color: '#000000', //ie低版兼容色,不能与网页背景相同,默认黑色
+            }
+            $('body').barrager(item);
+            //索引自增
+            index++;
+            //所有弹幕发布完毕，清除计时器。
+            if (index == total) {
+              clearInterval(looperValine);
+              if (themeLoop === true) {
+                setTimeout(function () {
+                  do_barrager();
+                }, 5000);
+              } else {
+                $('.danmuBtn').removeClass('open');
+              }
+              return false;
+            }
+
+          }
+        })
+      }
+    }
+  };
+  $(document).ready(load_valine);
+  document.addEventListener('pjax:send', function (e) {
+    
+  })
+  document.addEventListener('pjax:complete', function () {
+    load_valine();
+  });
+</script>
+
+  
 
 
 <!-- 鼠标点击特效 -->
