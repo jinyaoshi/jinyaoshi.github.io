@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="./friend_files/animate.min.css">
   <link rel="stylesheet" href="./friend_files/style.css">
   <title>指纹锁展示 | 金钥匙开锁 0558-7777746</title>
-
+  <!--旋转木马样式代码-->
   <style>
       @import url(http://fonts.googleapis.com/css?family=Anaheim);
       
@@ -113,65 +113,54 @@
 
   <script src="./js/jquery3.5.1.js"></script>
   <script src="./js/vue2.6.11.js"></script>
+  <script type="text/javascript" defer="" src="./friend_files/busuanzi"></script>
+  <script src="js/prefixfree.min.js"></script>
+  <!--
+  <style>
+    @media (max-width: 992px) {
+      #waifu {
+        display: none;
+      }
+    }
+  </style>
+  <script src="https://cdn.jsdelivr.net/gh/yuang01/live2d-widget@latest/autoload.js"></script>
+  <link rel="stylesheet" href="./friend_files/waifu.css">
+  <script src="./js/waifu-tips.js"></script>
+  <script>
+    var live2dOpen = eval('true') || false;
+    if (!live2dOpen) {
+        localStorage.setItem('waifu-display', 1609323474481);
+    }
+  </script>
 
-<script type="text/javascript" defer="" src="./friend_files/busuanzi"></script>
-
-
-
-    
-      <script src="js/prefixfree.min.js"></script>
-
-      <!--
-      <style>
-          @media (max-width: 992px) {
-              #waifu {
-                  display: none;
-              }
-          }
-      </style>
-      <script src="https://cdn.jsdelivr.net/gh/yuang01/live2d-widget@latest/autoload.js"></script>
-      <link rel="stylesheet" href="./friend_files/waifu.css">
-  
-      <script src="./js/waifu-tips.js"></script>
-      <script>
-          var live2dOpen = eval('true') || false;
-          if (!live2dOpen) {
-              localStorage.setItem('waifu-display', 1609323474481);
-          }
-      </script>
-
-      <link rel="stylesheet" href="./friend_files/he-simple.css">
-      <script src="http://push.zhanzhang.baidu.com/push.js"></script>
-      <script src="https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0"></script><script>
-          var themeModelId = '5';
-          if (themeModelId) {
-              localStorage.setItem('modelId', themeModelId);
-          }
-      </script>
-    
+  <link rel="stylesheet" href="./friend_files/he-simple.css">
+  <script src="http://push.zhanzhang.baidu.com/push.js"></script>
+  <script src="https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0"></script><script>
+    var themeModelId = '5';
+      if (themeModelId) {
+      localStorage.setItem('modelId', themeModelId);
+    }
+  </script>  
 -->
-
-
 </head>
 
+<!-- 依赖于jquery和vue -->
   
-  <!-- 依赖于jquery和vue -->
-  
-  
-  
-  <body class="pace-done pace-done pace-done" style="overflow: auto; height: 100%;" cz-shortcut-listen="true">
-    <div class="pace  pace-inactive pace-inactive pace-inactive">
-      <div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
-        <div class="pace-progress-inner"></div>
-      </div>
-    <div class="pace-activity"></div>
+<body class="pace-done pace-done pace-done" style="overflow: auto; height: 100%;" cz-shortcut-listen="true">
+<!--
+
+  <div class="pace  pace-inactive pace-inactive pace-inactive">
+    <div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+      <div class="pace-progress-inner"></div>
     </div>
-  
+    <div class="pace-activity"></div>
+  </div>
+ --> 
     <!-- 预加载动画 -->
     <!-- 页面预加载动画 -->
-
+<!--
 <div id="loader" class="loading">
-    <link rel="stylesheet" href="./js/loaded/index.css">
+  <link rel="stylesheet" href="./js/loaded/index.css">
   <div class="loading-left-bg"></div>
   <div class="loading-right-bg"></div>
   <div class="spinner-box">
@@ -184,31 +173,28 @@
     <div class="loading-word">加载中...</div>
   </div>
 </div>
-
+-->
+<!--
 <script>
   var endLoading = function () {
     document.body.style.overflow = 'auto';
     document.getElementById('loader').classList.add("loading");
   }
-  window.addEventListener('DOMContentLoaded',endLoading);
-  
-</script>
-
-    
-    <!-- 判断是否为暗黑风格 -->
-    <!-- 判断是否为黑夜模式 -->
+  window.addEventListener('DOMContentLoaded',endLoading); 
+</script> 
+-->
+<!-- 判断是否为暗黑风格 -->
+<!-- 判断是否为黑夜模式 -->
 <script>
   let isDark = JSON.parse(localStorage.getItem('dark')) || JSON.parse('false');
-
   if (isDark) {
     $(document.body).addClass('darkModel');
   }
 </script>
 
-    <!-- 头部导航等 -->
+<!-- 头部导航等 -->
     
-<header class="header" id="navHeader" style="position: fixed;
-  left: 0; top: 0; z-index: 10;width: 100%;">
+<header class="header" id="navHeader" style="position: fixed;left: 0; top: 0; z-index: 10;width: 100%;">
   <div class="header-content">
     <div class="bars">
       <div id="appDrawer" class="sidebar-image">
@@ -223,7 +209,7 @@
             <h5 class="drawer-box-head_desc">金钥匙,优质开锁换锁汽车钥匙匹配服务平台,我们秉承为用户提供快速、安全、服务好的服务原则,为您提供更好的开锁,换锁服务体验.</h5>
           </div> <div class="drawer-box-content"><ul class="drawer-box-content_menu"><li class="drawer-box-content_item" style="position: relative;"><a href="http://mckaisuo.vip/" class="drawer-menu-item-link" data-pjax-state=""><i aria-hidden="true" class="fas fa-home"></i> <span class="name">首页</span></a></li> <li class="drawer-box-content_item" style="position: relative;"><a href="http://mckaisuo.vip/archives" class="drawer-menu-item-link" data-pjax-state=""><i aria-hidden="true" class="fas fa-archive"></i> <span class="name">公司动态</span></a></li> <li class="drawer-box-content_item" style="position: relative;"><a href="http://mckaisuo.vip/tags" class="drawer-menu-item-link" data-pjax-state=""><i aria-hidden="true" class="fas fa-tags"></i> <span class="name">热点标签</span></a></li> <li class="drawer-box-content_item" style="position: relative;"><a href="http://mckaisuo.vip/%E6%8C%87%E7%BA%B9%E9%94%81/index.html" class="drawer-menu-item-link" data-pjax-state=""><i aria-hidden="true" class="fas fa-unlock-alt"></i> <span class="name">指纹锁</span></a></li> <li class="drawer-box-content_item" style="position: relative;"><a href="http://mckaisuo.vip/about" class="drawer-menu-item-link" data-pjax-state=""><i aria-hidden="true" class="fas fa-user"></i> <span class="name">关于我们</span></a></li> <li class="drawer-box-content_item" style="position: relative;"><a href="http://mckaisuo.vip/friends" class="drawer-menu-item-link" data-pjax-state=""><span class="name">友情链接</span></a></li> <li class="drawer-box-content_item" style="position: relative;"><a href="http://mckaisuo.vip/lock/index.html" class="drawer-menu-item-link" data-pjax-state=""><span class="name">lock</span></a></li> <li class="drawer-box-content_item" style="position: relative;"><a href="http://mckaisuo.vip/%E6%99%BA%E8%83%BD%E9%94%81/index.html" class="drawer-menu-item-link" data-pjax-state=""><span class="name">智能锁</span></a></li></ul></div></div></div>
 
-<script>
+    <script>
   var body = document.body || document.documentElement || window;
   var vm = new Vue({
     el: '#appDrawer',
@@ -266,7 +252,7 @@
     },
     created() {}
   })
-</script>
+    </script>
 
     </div>
     <div class="blog-title" id="author-avatar">
@@ -350,8 +336,8 @@
       
       
         <div id="appSearch"><div class="search"><i aria-hidden="true" class="fas fa-search"></i></div> <div class="message-box_wrapper" style="display: none;"><div class="message-box animated bounceInDown"><h2><span><i aria-hidden="true" class="fas fa-search"></i> <span class="title">本地搜索</span></span> <i pointer="" aria-hidden="true" class="fas fa-times close" style="float: right;"></i></h2> <form class="site-search-form"><input type="text" placeholder="请输入关键字" id="local-search-input" class="st-search-input"></form> <div class="result-wrapper"><div id="local-search-result" class="local-search-result-cls"></div></div></div></div></div>
-<script src="./js/local_search.js"></script>
-<script>
+    <script src="./js/local_search.js"></script>
+    <script>
   var body = document.body || document.documentElement || window;
   var vm = new Vue({
     el: '#appSearch',
@@ -384,7 +370,7 @@
     },
     created() {}
   })
-</script>
+    </script>
 <!-- 解决刷新页面闪烁问题，可以在元素上添加display: none, 或者用vue.extend方法，详情：https://blog.csdn.net/qq_31393401/article/details/81017912 -->
 <!-- 下面是搜索基本写法 -->
 <!--<script type="text/javascript" id="local.search.active">
