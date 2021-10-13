@@ -69,12 +69,12 @@ button {
   outline: none;
   border: none;
   padding: 8px 14px;
-  background: #414141;
-  background-image: -webkit-linear-gradient(top, #575757, #414141);
-  background-image: -moz-linear-gradient(top, #575757, #414141);
-  background-image: -ms-linear-gradient(top, #575757, #414141);
-  background-image: -o-linear-gradient(top, #575757, #414141);
-  background-image: linear-gradient(to bottom, #575757, #414141);
+  background: white;/*#575757, #414141*/
+  background-image: -webkit-linear-gradient(top, white, white);
+  background-image: -moz-linear-gradient(top, white, white);
+  background-image: -ms-linear-gradient(top, white, white);
+  background-image: -o-linear-gradient(top, white, white);
+  background-image: linear-gradient(to bottom, white, white);
   text-shadow: 0px 1px 0px #414141;
   -webkit-box-shadow: 0px 1px 0px 414141;
   -moz-box-shadow: 0px 1px 0px 414141;
@@ -110,6 +110,7 @@ button:hover {
 }
 
 button {
+  color: black;
   font-size: 20px;
   font-weight: 400;
 }
