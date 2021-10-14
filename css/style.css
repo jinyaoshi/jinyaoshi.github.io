@@ -3421,7 +3421,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   color: #fff;
   font-size: 30px;
   position: absolute;
-  left: 10%;
+  left: 5%;
   top: 10px;
   line-height: 20px;
 }
