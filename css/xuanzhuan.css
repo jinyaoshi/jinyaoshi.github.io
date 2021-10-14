@@ -15,6 +15,7 @@
       html,
       body{
         min-height: 100%;
+        background-color: black; /*新增*/
       }
       /*
       body{
@@ -48,7 +49,7 @@
       }
       .container{
         margin: 2% auto;
-      
+        
         width: 328px;
         height: 442px;
         position: relative;
@@ -74,7 +75,7 @@
         top: 10px;
         background: black;
         overflow: hidden;
-        border: solid 5px #fff;
+        border: solid 5px rgba(255,255,255,0.01); /*原来是white*/
       }
   
       #carousel figure:nth-child(1) {transform: rotateY(0deg) translateZ(462px);}
@@ -88,12 +89,12 @@
       #carousel figure:nth-child(9) { transform: rotateY(320deg) translateZ(462px);}
       
       img{
-        -webkit-filter: grayscale(80%);
+        -webkit-filter: grayscale(0);
         cursor: pointer;
         transition: all 1s ease;
       }
       img:hover{
-        -webkit-filter: grayscale(0);
+        -webkit-filter: grayscale(90%);
         transform: scale(1.2,1.2);
       }
       

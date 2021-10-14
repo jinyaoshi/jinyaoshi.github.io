@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>test2</title>
+      <link href="/2021/10/14/test2/"/>
+      <url>/2021/10/14/test2/</url>
+      
+        <content type="html"><![CDATA[<span class='btn large round solid info center'><a class="button" href='http://www.mckaisuo.vip' title='百度'>百度</a></span><span class='btn large round solid info center'><a class="button" href='http://www.mckaisuo.vip' title='谷歌'>谷歌</a></span><div class="btns circle center grid5">            <a href='https://apps.apple.com/cn/app/heart-mate-pro-hrm-utility/id1463348922?ls=1'><i class='fab fa-weixin'></i><b>这个是微信</b><p class='p red'>微信</p><img src='/medias/wx.jpg'></a><a href='https://apps.apple.com/cn/app/heart-mate-pro-hrm-utility/id1463348922?ls=1'><i class='fas fa-user-o'></i><b>这个支付宝</b><p class='p green'>支付宝☺</p><img src='/medias/zfb.jpg'></a>          </div>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 测试 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title></title>
       <link href="/2021/10/09/test/"/>
       <url>/2021/10/09/test/</url>

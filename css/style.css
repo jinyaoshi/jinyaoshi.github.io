@@ -1842,6 +1842,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   box-shadow: 0 1px 10px -3px rgba(0,0,0,0.5);
   transition: all 0.3s;
   margin-top: 20px;
+  font-weight: bold;
 }
 #tags .card .card-content .tag-chips a .tag-content:hover {
   transform: scale(1.2);
@@ -2614,8 +2615,10 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   align-items: center;
 }
 .archive .post-archive .post-item .post-img-box {
-  width: 80px;
-  height: 80px;
+/*width: 80px;
+        height: 80px;*/
+  width: 240px;
+  height: 160px;
   overflow: hidden;
 }
 .archive .post-archive .post-item .post-img-box img {
@@ -2645,6 +2648,8 @@ pre:hover::-webkit-scrollbar-thumb:hover,
 }
 .archive .post-archive .post-item .post-title {
   color: #555;
+  font-size: 30px;
+  font-weight: bold;
   transition: all 0.3s;
   text-overflow: -o-ellipsis-lastline;
   overflow: hidden;
