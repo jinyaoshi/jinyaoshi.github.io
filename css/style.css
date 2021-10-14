@@ -3422,7 +3422,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   font-size: 30px;
   position: absolute;
   left: 5%;
-  top: 10px;
+  top: 15px;
   line-height: 20px;
 }
 #about .basic-info .skill .bar-box .bar-number {
