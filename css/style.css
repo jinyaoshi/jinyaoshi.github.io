@@ -3399,7 +3399,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
 #about .basic-info .skill .bar-box {
   position: relative;
   width: 45%;
-  height: 20px;
+  height: 50px;
   background-color: #dddcdc;
   border-radius: 10px;
   overflow: hidden;
@@ -3419,10 +3419,10 @@ pre:hover::-webkit-scrollbar-thumb:hover,
 }
 #about .basic-info .skill .bar-box .bar-name {
   color: #fff;
-  font-size: 14px;
+  font-size: 30px;
   position: absolute;
-  left: 15px;
-  top: 0;
+  left: 40%;
+  top: 10px;
   line-height: 20px;
 }
 #about .basic-info .skill .bar-box .bar-number {
@@ -3440,6 +3440,8 @@ pre:hover::-webkit-scrollbar-thumb:hover,
 #about .basic-info .socialAccounts .account {
   margin-right: 20px;
   margin-top: 15px;
+  font-size: 30px;
+  font-weight: bold;
 }
 #about .basic-info .games {
   padding: 20px;
