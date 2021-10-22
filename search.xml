@@ -5,8 +5,8 @@
     
     <entry>
       <title>test3</title>
-      <link href="/2021/10/15/test3/"/>
-      <url>/2021/10/15/test3/</url>
+      <link href="/test3.html"/>
+      <url>/test3.html</url>
       
         <content type="html"><![CDATA[<span class='btn large round solid info center'><a class="button" href='http://www.mckaisuo.vip' title='百度'>百度</a></span><span class='btn large round solid info center'><a class="button" href='http://www.mckaisuo.vip' title='谷歌'>谷歌</a></span><div class="btns circle center grid5">            <a href='https://apps.apple.com/cn/app/heart-mate-pro-hrm-utility/id1463348922?ls=1'><i class='fab fa-weixin'></i><b>这个是微信</b><p class='p red'>微信</p><img src="medias/wx.jpg" class="lazyload placeholder" data-srcset="medias/wx.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg"></a><a href='http://www.mckaisuo.vip'><i class='fas fa-user-o'></i><b>这个支付宝</b><p class='p green'>支付宝☺</p><img src="medias/zfb.jpg" class="lazyload placeholder" data-srcset="medias/zfb.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg"></a>          </div>]]></content>
       
@@ -24,8 +24,8 @@
     
     <entry>
       <title>test2</title>
-      <link href="/2021/10/14/test2/"/>
-      <url>/2021/10/14/test2/</url>
+      <link href="/test2.html"/>
+      <url>/test2.html</url>
       
         <content type="html"><![CDATA[<span class='btn large round solid info center'><a class="button" href='http://www.mckaisuo.vip' title='百度'>百度</a></span><span class='btn large round solid info center'><a class="button" href='http://www.mckaisuo.vip' title='谷歌'>谷歌</a></span><div class="btns circle center grid5">            <a href='https://apps.apple.com/cn/app/heart-mate-pro-hrm-utility/id1463348922?ls=1'><i class='fab fa-weixin'></i><b>这个是微信</b><p class='p red'>微信</p><img src='/medias/wx.jpg'></a><a href='https://apps.apple.com/cn/app/heart-mate-pro-hrm-utility/id1463348922?ls=1'><i class='fas fa-user-o'></i><b>这个支付宝</b><p class='p green'>支付宝☺</p><img src='/medias/zfb.jpg'></a>          </div>]]></content>
       
@@ -43,8 +43,8 @@
     
     <entry>
       <title></title>
-      <link href="/2021/10/09/test/"/>
-      <url>/2021/10/09/test/</url>
+      <link href="/test.html"/>
+      <url>/test.html</url>
       
         <content type="html"><![CDATA[<p><img src="http://image.mckaisuo.vip/img/ad-2.gif" class="lazyload placeholder" data-srcset="http://image.mckaisuo.vip/img/ad-2.gif" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="ad-2"></p>]]></content>
       
@@ -56,8 +56,8 @@
     
     <entry>
       <title></title>
-      <link href="/2021/10/09/jin-yao-chi-jian-jie/"/>
-      <url>/2021/10/09/jin-yao-chi-jian-jie/</url>
+      <link href="/jin-yao-chi-jian-jie.html"/>
+      <url>/jin-yao-chi-jian-jie.html</url>
       
         <content type="html"><![CDATA[<p><img src="http://image.mckaisuo.vip/img/ad-1.png" class="lazyload placeholder" data-srcset="http://image.mckaisuo.vip/img/ad-1.png" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="ad-1"></p>]]></content>
       
